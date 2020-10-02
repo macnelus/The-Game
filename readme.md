@@ -1,6 +1,10 @@
 # The Game
 
+Tetris.
+
 ## What is it?
+
+Is a game 
 
 ### Technologies
 

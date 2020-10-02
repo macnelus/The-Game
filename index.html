@@ -6,9 +6,50 @@
     <title>Mariano Cuesta | The Game</title>
     <link rel="stylesheet" href="./styles/normalize.css" />
     <link rel="stylesheet" href="./styles/main.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vanila Javascript</title>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Press+Start+2P"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
   </head>
   <body>
-    <h1>The Game</h1>
-    <script src="/scripts/index.js"></script>
+    <h1>MVP Tetris</h1>
+    <div class="tetris-board"></div>
+    <div class="grid-wrapper">
+      <div class="grid"></div>
+      <div class="right-column">
+        <div class="mini-grid">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <div>
+          <p>Score: <span id="score">0</span></p>
+          <p>Lines: <span id="lines">0</span></p>
+          <p>Level: <span id="level">0</span></p>
+        </div>
+        <button onclick="play()" id="start-button" class="play-button">
+          Play
+        </button>
+      </div>
+    </div>
+    <script src="./scripts/index.js"></script>
   </body>
 </html>
