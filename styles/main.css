@@ -1,11 +1,10 @@
-/* Tips de Pedro */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,600;1,900&display=swap');
+/////*TIPS DE PEDRO*/////
+
 * {
   box-sizing: border-box;
 }
 
-body {
-  font-size: 100%;
-}
 img {
   display: block;
   height: auto;
@@ -13,5 +12,94 @@ img {
 }
 picture {
   display: block;
-  background-color: red;
+}
+
+body {
+  font-size: 100%;
+  background-color: whitesmoke;
+}
+* body {
+  height: 20vh;
+  margin: 0;
+}
+h1 {
+  padding-bottom: 3em;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.grid-wrapper {
+  height: 15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  height: 10%;
+  justify-content: center;
+  width: 17rem;
+  height: 17rem;
+}
+
+.grid div {
+  border: 0.1rem solid lightgrey;
+  flex-grow: 3;
+  height: 9%;
+  width: 9%;
+  border-bottom: 0.2rem
+  border-color: black ;
+}
+
+.right-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 5em;
+}
+
+.game-board {
+  border: solid 2px;
+}
+
+p {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.play-button {
+  background-color: #cf8536;
+  font-size: 16px;
+  padding: 15px 30px;
+  cursor: pointer;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.tetromino {
+  background-color: blue;
+  border-color: black;
+}
+
+.mini-grid {
+  margin-left: 5rem;
+  width: 5rem;
+  height: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+div.taken {
+  border-color: whitesmoke;
 }
